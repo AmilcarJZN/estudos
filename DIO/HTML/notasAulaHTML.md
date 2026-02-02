@@ -33,7 +33,7 @@ w3scholls - https://www.w3schools.com/
 **Exemplos de Atributos**
 - **id:**  é um especificador de um elemento. `<strong id="título">`
 - **style:** é usado para aplicar estilos (voltado ao css) `<strong style="color: blue;">`
-- **style:** também é usado para css. `<strong class="titulo-principal">`
+- **class:** também é usado para css. `<strong class="titulo-principal">`
 - **type:** este pertence à tag input edefine o tipo de entrada, números, texto, cor, etc... `<input type="color">`  
 ### Tags de Textos (Tipografia)
 
