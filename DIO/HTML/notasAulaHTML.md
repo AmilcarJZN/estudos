@@ -52,7 +52,7 @@ As listas precisam de um componente filho para indicar os itens, esses itens sã
 
 ### links
 Para fazer links usa-se âncoras, por isso a tag se chama  \<a>
-**\<a href="https://google.com">link para google</a >
+\<a href="https://google.com">link para google\</a >
 #### Alguns atributos para links
 - **href="..." :** endereço destino
 - **target="_self" :** abrirá na mesma página 

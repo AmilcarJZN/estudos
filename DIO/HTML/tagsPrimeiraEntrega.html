@@ -2,7 +2,7 @@
 <h1> Formação HTML notas de aula</h1>
 <h2>Links e estrutura</h2>
 <p>Recomenda-se a extenção live server de Ritwick Dey</p>
-<p>w3scholls - https://www.w3schools.com/</p>
+<p>w3scholls - <a target="_blank" href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
 
 <h2>Introdução ao HTML</h2>
 <p>Por convenção a página principal do site se chama index.html
@@ -58,27 +58,30 @@
 <strong>&lt;mark></strong> : usado para emular um marca texto.<br>
 <strong>&lt;h1></strong> : usado para títulos, o número muda a ênfase (1 é maior).<br>
 <strong>&lt;sup></strong> : Texto em cima.<br>
-Listas ordenadas e não ordenadas
-As listas precisam de um componente filho para indicar os itens, esses itens são indicados pela tag &lt;li>
-(List Item).
-É possível colocar listas dentro de itens de lista também.
 
-<ol> : lista ordenada, vai ordenando por letras ou números sequenciais.
-    <ul> : lista ordenada, vai ordenando por letras ou números.
-        links
-        Para fazer links usa-se âncoras, por isso a tag se chama <a> **<a href="https://google.com">link para google
+<h2>Listas ordenadas e não ordenadas</h2>
+<p>
+    As listas precisam de um componente filho para indicar os itens, esses itens são indicados pela tag &lt;li>
+    (List Item).
+</p>
+<p>É possível colocar listas dentro de itens de lista também.</p>
 
-                Alguns atributos para links
-                href="..." : endereço destino
-                target="_self" : abrirá na mesma página (padrão)
-                title="dica" : mostra um tooltip (balãozinho)
-                Ancoragem
-                Para fazer ancoragem link para a mesma página precisa definir o ID da âncora, para
-                isso coloca um "#" na <href>, como no exemplo abaixo(âncora surgimento):
+&lt;ol> : lista ordenada, vai ordenando por letras ou números sequenciais.<br>
+&lt;ul> : lista ordenada, vai ordenando por letras ou números.<br>
+<h2>links</h2>
+Para fazer links usa-se âncoras, por isso a tag se chama &lt;a> &lt;a href="https://google.com">link para google
 
-                    <a href="#surgimento">Surgimento da TI</a>
-                    ....
-                    ....
-                    <h2 id="surgimento">Surgimento da TI</h2>
+        Alguns atributos para links
+        href="..." : endereço destino
+        target="_self" : abrirá na mesma página (padrão)
+        title="dica" : mostra um tooltip (balãozinho)
+        Ancoragem
+        Para fazer ancoragem link para a mesma página precisa definir o ID da âncora, para
+        isso coloca um "#" na <href>, como no exemplo abaixo(âncora surgimento):
+
+            <a href="#surgimento">Surgimento da TI</a>
+            ....
+            ....
+            <h2 id="surgimento">Surgimento da TI</h2>
 
 </html>
