@@ -1,4 +1,4 @@
-# Formação HTML notas de aula
+# Formação HTML notas de aulaHT
 
 ## Links e estrutura
 Recomenda-se a extenção live server de Ritwick Dey  
@@ -56,3 +56,12 @@ Para fazer links usa-se âncoras, por isso a tag se chama  \<a>
 - **target="_self" :** abrirá na mesma página 
 (padrão)
 - **title="dica" :** mostra um tooltip (balãozinho)
+
+#### Ancoragem
+Para fazer ancoragem link para a mesma página precisa definir o ID da âncora, para isso coloca um "#" na \<href>, como no exemplo abaixo(âncora surgimento):  
+```
+<a href="#surgimento">Surgimento da TI</a>  
+....
+....
+<h2 id="surgimento">Surgimento da TI</h2>
+```
