@@ -1,4 +1,4 @@
-# Formação HTML notas de aulaHT
+# Formação HTML notas de aula
 
 ## Links e estrutura
 Recomenda-se a extenção live server de Ritwick Dey  
@@ -16,7 +16,9 @@ w3scholls - https://www.w3schools.com/
     <head>
         <title>o que vai escrito na aba</title>
     </head>
-    <body>CORPO (o que o ususário vê)</body>
+    <body>
+        CORPO (o que o ususário vê)
+    </body>
 </html>
 ```
 ### Tags
@@ -46,7 +48,7 @@ w3scholls - https://www.w3schools.com/
 As listas precisam de um componente filho para indicar os itens, esses itens são indicados pela tag **\<li>** (List Item).  
 É possível colocar listas dentro de itens de lista também.
 - **\<ol> :**  lista ordenada, vai ordenando por letras ou números sequenciais.
-- **\<ul> :**  lista ordenada, vai ordenando por letras ou números.
+- **\<ul> :**  lista sem ordem, apenas coloca uma indicação de lista como um traçoou bullet.
 
 ### links
 Para fazer links usa-se âncoras, por isso a tag se chama  \<a>
