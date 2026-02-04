@@ -1,87 +1,107 @@
 <html>
-<h1> Formação HTML notas de aula</h1>
-<h2>Links e estrutura</h2>
-<p>Recomenda-se a extenção live server de Ritwick Dey</p>
-<p>w3scholls - <a target="_blank" href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
 
-<h2>Introdução ao HTML</h2>
-<p>Por convenção a página principal do site se chama index.html
-    Estrutura do HTML
-    É composto por 3 partes:
-<ul>
-    <li>html: indica o início e o fim do arquivo</li>
-    <li>head: que será carregado antes dos conteúdos serem exibidos.</li>
-    <li>body: o que será exibido ao usuário.></li>
-</ul>
-</p>
-<code>
-<pre>
-    &lt;html&gt;
-        &lt;head&gt;
-            &lt;title&gt;o que vai escrito na aba&lt;/title&gt;
-        &lt;/head&gt;
-        &lt;body&gt;
-            CORPO (o que o ususário vê)
-        &lt;/body&gt;
-    &lt;/html&gt;
-</pre>
-</code>
-<h2>Tags</h2>
-<ul>
-    <li>Tags tem abertura e fechamento.</li>
-    <li>Uma barra determina o fechamento.</li>
-    <li>Tudo o que estiver entre tags o navegador irá interpretar conforme a tag.</li>
-</ul>
+<head></head>
 
-<pre>   &lt;strong> <strong> texto que ficará em negrito</strong> &lt;/strong></pre>
+<body>
 
-<h3>Atributos das tags</h3>
-<ul>
-    <li>Atributos são propriedades que as tags tem.</li>
-    <li>Existem atributos que são genéricos (quase todas as tags tem) e outros que apenas tags específicas tẽm.</li>
-    <li>É possível colocar mais de um atributo por tag.</li>
-</ul>
+    <h1> Formação HTML notas de aula</h1>
+    <h2>Links e estrutura</h2>
+    <p>Recomenda-se a extenção live server de Ritwick Dey</p>
+    <p>w3scholls - <a target="_blank" href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
 
-<h4>Exemplos de Atributos</h4>
+    <h2>Introdução ao HTML</h2>
+    <p>Por convenção a página principal do site se chama index.html
+        Estrutura do HTML
+        É composto por 3 partes:
+    <ul>
+        <li>html: indica o início e o fim do arquivo</li>
+        <li>head: que será carregado antes dos conteúdos serem exibidos.</li>
+        <li>body: o que será exibido ao usuário.></li>
+    </ul>
+    </p>
+    <big>
+        <code>
+     <pre>
+         &lt;html&gt;
+             &lt;head&gt;
+                 &lt;title&gt;o que vai escrito na aba&lt;/title&gt;
+             &lt;/head&gt;
+             &lt;body&gt;
+                 CORPO (o que o ususário vê)
+             &lt;/body&gt;
+         &lt;/html&gt;
+     </pre>
+     </code>
+    </big>
+    <h2>Tags</h2>
+    <ul>
+        <li>Tags tem abertura e fechamento.</li>
+        <li>Uma barra determina o fechamento.</li>
+        <li>Tudo o que estiver entre tags o navegador irá interpretar conforme a tag.</li>
+    </ul>
 
-<ul>
-    <li>id: é um especificador de um elemento. &lt;strong id="título">bla bla...&lt;/strong></li>
-    <li>style: é usado para aplicar estilos (voltado ao css) &lt;strong style="color: blue;"><strong
-            style="color: blue">Azul</strong>&lt;/strong></li>
-    <li>class: também é usado para css. &lt;strong class="titulo-principal"></li>
-    <li>type: este pertence à tag input edefine o tipo de entrada, números, texto, cor, etc... &lt;input
-        type="color">bla bla ...></li>
-</ul>
-<h3>Tags de Textos (Tipografia)</h3>
+    <pre>   &lt;strong> <strong> texto que ficará em negrito</strong> &lt;/strong></pre>
 
-<strong>&lt;blockquote></strong> : usado para citações.<br>
-<strong>&lt;mark></strong> : usado para emular um marca texto.<br>
-<strong>&lt;h1></strong> : usado para títulos, o número muda a ênfase (1 é maior).<br>
-<strong>&lt;sup></strong> : Texto em cima.<br>
+    <h3>Atributos das tags</h3>
+    <ul>
+        <li>Atributos são propriedades que as tags tem.</li>
+        <li>Existem atributos que são genéricos (quase todas as tags tem) e outros que apenas tags específicas tẽm.</li>
+        <li>É possível colocar mais de um atributo por tag.</li>
+    </ul>
 
-<h2>Listas ordenadas e não ordenadas</h2>
-<p>
-    As listas precisam de um componente filho para indicar os itens, esses itens são indicados pela tag &lt;li>
-    (List Item).
-</p>
-<p>É possível colocar listas dentro de itens de lista também.</p>
+    <h4>Exemplos de Atributos</h4>
 
-&lt;ol> : lista ordenada, vai ordenando por letras ou números sequenciais.<br>
-&lt;ul> : lista ordenada, vai ordenando por letras ou números.<br>
-<h2>links</h2>
-Para fazer links usa-se âncoras, por isso a tag se chama &lt;a> &lt;a href="https://google.com">link para google
+    <ul>
+        <li>id: é um especificador de um elemento. &lt;strong id="título">bla bla...&lt;/strong></li>
+        <li>style: é usado para aplicar estilos (voltado ao css) &lt;strong style="color: blue;"><strong
+                style="color: blue">Azul</strong>&lt;/strong></li>
+        <li>class: também é usado para css. &lt;strong class="titulo-principal"></li>
+        <li>type: este pertence à tag input edefine o tipo de entrada, números, texto, cor, etc... &lt;input
+            type="color">bla bla ...></li>
+    </ul>
+    <h3>Tags de Textos (Tipografia)</h3>
 
-        Alguns atributos para links
-        href="..." : endereço destino
-        target="_self" : abrirá na mesma página (padrão)
-        title="dica" : mostra um tooltip (balãozinho)
-        Ancoragem
+    <strong>&lt;blockquote></strong> : usado para citações.<br>
+    <strong>&lt;mark></strong> : usado para emular um marca texto.<br>
+    <strong>&lt;h1></strong> : usado para títulos, o número muda a ênfase (1 é maior).<br>
+    <strong>&lt;sup></strong> : Texto em cima.<br>
+
+    <h2>Listas ordenadas e não ordenadas</h2>
+    <p>
+        As listas precisam de um componente filho para indicar os itens, esses itens são indicados pela tag &lt;li>
+        (List Item).
+    </p>
+    <p>É possível colocar listas dentro de itens de lista também.</p>
+
+    &lt;ol> : lista ordenada, vai ordenando por letras ou números sequenciais.<br>
+    &lt;ul> : lista ordenada, vai ordenando por letras ou números.<br>
+    <h2>links</h2>
+    <p>Para fazer links usa-se âncoras, por isso a tag se chama &lt;a> &lt;a href="https://google.com">link para
+        google&lt;a></p>
+    <h3>Alguns atributos para links</h3>
+    <ul>
+
+        <li>href="..." : endereço destino</li>
+        <li>target="_self" : abrirá na mesma página (padrão)</li>
+        <li>title="dica" : mostra um tooltip (balãozinho)</li>
+
+    </ul>
+
+    <h3>Ancoragem</h3>
+    <p>
         Para fazer ancoragem link para a mesma página precisa definir o ID da âncora, para
-        isso coloca um "#" na <href>, como no exemplo abaixo(âncora surgimento):
-
-            <a href="#surgimento">Surgimento da TI</a>
+        isso coloca um "#" na &lt;href>, como no exemplo abaixo (âncora surgimento):
+    </p>
+    <pre>
+        <code>
+            
+            &lt;a href="#surgimento">Surgimento da TI &lt;/a>
             ....
             ....
-            <h2 id="surgimento">Surgimento da TI</h2>
+            &lt;h2 id="surgimento">Surgimento da TI &lt;/h2>
+            
+        </code>
+    </pre>
 
 </html>
+</body>
