@@ -4,7 +4,7 @@
 Recomenda-se a extenção live server de Ritwick Dey  
 w3scholls - https://www.w3schools.com/
 
-## Introdução so HTML
+## Introdução ao HTML
 * Por convenção a página principal do site se chama **index.html**
 ### Estrutura do HTML
 É composto por 3 partes:  
@@ -67,3 +67,8 @@ Para fazer ancoragem link para a mesma página precisa definir o ID da âncora, 
 ....
 <h2 id="surgimento">Surgimento da TI</h2>
 ```
+# HTML 1 - Conceitos Básicos
+## Trabalhando com formulários
+Formulários são campos onde um usuário irá inserir informações.
+### Tag \<form>
+Na escolha do método é importante usar o Post e não o Get, pois o GET envia via url, exibindo o conteúdo.
